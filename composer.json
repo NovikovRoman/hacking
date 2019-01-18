@@ -1,0 +1,22 @@
+{
+  "name": "noroman/hacking",
+  "description": "Hacking various web-protections",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NovikovRoman",
+      "email": "service.for.roman@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ext-mbstring": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hacking\\": "src/"
+    }
+  }
+}
